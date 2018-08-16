@@ -62,7 +62,7 @@ formatter.examples({
     {
       "cells": [
         "redakosimi",
-        "Computer1!!!"
+        "Computer1!!"
       ],
       "line": 14,
       "id": "login-into-the-freecrm-website;verifying-the-user-can-login-to-the-freecrm-website;;4"
@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3415627611,
+  "duration": 1784074157,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "Login_steps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 7561250558,
+  "duration": 3338095118,
   "status": "passed"
 });
 formatter.match({
@@ -122,22 +122,22 @@ formatter.match({
   "location": "Login_steps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 9973055814,
+  "duration": 8088586535,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_steps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 18797532,
+  "duration": 7227585,
   "status": "passed"
 });
 formatter.after({
-  "duration": 624095907,
+  "duration": 139599935,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2373859427,
+  "duration": 765956737,
   "status": "passed"
 });
 formatter.scenario({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "Login_steps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 9452113320,
+  "duration": 3029382756,
   "status": "passed"
 });
 formatter.match({
@@ -188,22 +188,22 @@ formatter.match({
   "location": "Login_steps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 9148357342,
+  "duration": 7851445388,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_steps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 16799618,
+  "duration": 12271820,
   "status": "passed"
 });
 formatter.after({
-  "duration": 657510915,
+  "duration": 86303334,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2346840257,
+  "duration": 738078582,
   "status": "passed"
 });
 formatter.scenario({
@@ -221,7 +221,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I login with credentials \"redakosimi\" and \"Computer1!!!\"",
+  "name": "I login with credentials \"redakosimi\" and \"Computer1!!\"",
   "matchedColumns": [
     0,
     1
@@ -237,7 +237,7 @@ formatter.match({
   "location": "Login_steps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 6409711122,
+  "duration": 3373065773,
   "status": "passed"
 });
 formatter.match({
@@ -247,25 +247,26 @@ formatter.match({
       "offset": 26
     },
     {
-      "val": "Computer1!!!",
+      "val": "Computer1!!",
       "offset": 43
     }
   ],
   "location": "Login_steps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 10931705279,
+  "duration": 1926208976,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_steps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 22665472,
-  "status": "passed"
+  "duration": 73540703,
+  "error_message": "java.lang.AssertionError: Test Failed\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat stepdefs.Login_steps.flight_finder_page_is_displayed(Login_steps.java:49)\n\tat ✽.Then Flight finder page is displayed(Login.feature:7)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 640112157,
+  "duration": 2417107723,
   "status": "passed"
 });
 });

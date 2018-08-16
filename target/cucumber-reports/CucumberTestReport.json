@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3415627611,
+              "duration": 1784074157,
               "status": "passed"
             },
             "match": {
@@ -21,11 +21,11 @@
         "after": [
           {
             "result": {
-              "duration": 624095907,
+              "duration": 139599935,
               "status": "passed"
             },
             "match": {
-              "location": "ServiceHooks.tearDown()"
+              "location": "ServiceHooks.tearDown(Scenario)"
             }
           }
         ],
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7561250558,
+              "duration": 3338095118,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 9973055814,
+              "duration": 8088586535,
               "status": "passed"
             },
             "line": 6,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 18797532,
+              "duration": 7227585,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
         "before": [
           {
             "result": {
-              "duration": 2373859427,
+              "duration": 765956737,
               "status": "passed"
             },
             "match": {
@@ -103,11 +103,11 @@
         "after": [
           {
             "result": {
-              "duration": 657510915,
+              "duration": 86303334,
               "status": "passed"
             },
             "match": {
-              "location": "ServiceHooks.tearDown()"
+              "location": "ServiceHooks.tearDown(Scenario)"
             }
           }
         ],
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9452113320,
+              "duration": 3029382756,
               "status": "passed"
             },
             "line": 5,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 9148357342,
+              "duration": 7851445388,
               "status": "passed"
             },
             "line": 6,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 16799618,
+              "duration": 12271820,
               "status": "passed"
             },
             "line": 7,
@@ -170,7 +170,7 @@
         "before": [
           {
             "result": {
-              "duration": 2346840257,
+              "duration": 738078582,
               "status": "passed"
             },
             "match": {
@@ -185,11 +185,11 @@
         "after": [
           {
             "result": {
-              "duration": 640112157,
+              "duration": 2417107723,
               "status": "passed"
             },
             "match": {
-              "location": "ServiceHooks.tearDown()"
+              "location": "ServiceHooks.tearDown(Scenario)"
             }
           }
         ],
@@ -198,7 +198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6409711122,
+              "duration": 3373065773,
               "status": "passed"
             },
             "line": 5,
@@ -210,11 +210,11 @@
           },
           {
             "result": {
-              "duration": 10931705279,
+              "duration": 1926208976,
               "status": "passed"
             },
             "line": 6,
-            "name": "I login with credentials \"redakosimi\" and \"Computer1!!!\"",
+            "name": "I login with credentials \"redakosimi\" and \"Computer1!!\"",
             "match": {
               "arguments": [
                 {
@@ -222,7 +222,7 @@
                   "offset": 26
                 },
                 {
-                  "val": "Computer1!!!",
+                  "val": "Computer1!!",
                   "offset": 43
                 }
               ],
@@ -236,8 +236,9 @@
           },
           {
             "result": {
-              "duration": 22665472,
-              "status": "passed"
+              "duration": 73540703,
+              "error_message": "java.lang.AssertionError: Test Failed\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat stepdefs.Login_steps.flight_finder_page_is_displayed(Login_steps.java:49)\n\tat ✽.Then Flight finder page is displayed(Login.feature:7)\n",
+              "status": "failed"
             },
             "line": 7,
             "name": "Flight finder page is displayed",

@@ -9,10 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Login Test Suite</th></tr>
-<tr><td><a href="#t0">Login</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">64,180</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Login</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">34,202</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Login Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1534455740563</td><td rowspan="1">63782</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Login Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1534457099212</td><td rowspan="1">33790</td></tr></tbody>
 </table>
-<h2>Login</h2><h3 id="m0">TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Login into the FreeCRM website</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login</h2><h3 id="m0">TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Login into the FreeCRM website</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: Test Failed
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at TestRunner.feature(TestRunner.java:33)
+Caused by: java.lang.AssertionError: Test Failed
+	at stepdefs.Login_steps.flight_finder_page_is_displayed(Login_steps.java:49)
+	at ✽.Then Flight finder page is displayed(Login.feature:7)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

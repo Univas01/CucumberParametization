@@ -11,4 +11,4 @@ Feature: Login into the FreeCRM website
       | username     | password     |
       | univas01     | Computer1!   |
       | olacontact   | Computer1!!  |
-      | redakosimi   | Computer1!!! |
+      | redakosimi   | Computer1!! |
