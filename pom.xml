@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.seleniumguru.cucumber</groupId>
-    <artifactId>Seleniumguru-Cucumber</artifactId>
+    <artifactId>CucumberParametization</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
