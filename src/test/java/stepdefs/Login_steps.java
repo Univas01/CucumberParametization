@@ -42,8 +42,6 @@ public class Login_steps {
 
     @Then("^Flight finder page is displayed$")
     public void flight_finder_page_is_displayed() throws Throwable {
-        /*WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'New Help Center')]")));*/
         String title = driver.getTitle();
         if(title.equals("CRMPRO")){
             System.out.println("Test Passed");
