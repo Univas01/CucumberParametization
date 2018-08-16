@@ -1,0 +1,258 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1452598840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initialization()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verifying the user can login to the freeCRM website",
+        "description": "",
+        "id": "login-into-the-freecrm-website;verifying-the-user-can-login-to-the-freecrm-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 135408637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3396870024,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the website in a browser",
+            "match": {
+              "location": "Login_steps.i_open_the_website_in_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6795278825,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with credentials \"univas01\" and \"Computer1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "univas01",
+                  "offset": 26
+                },
+                {
+                  "val": "Computer1!",
+                  "offset": 41
+                }
+              ],
+              "location": "Login_steps.i_login_with_credentials_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21648710,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Flight finder page is displayed",
+            "match": {
+              "location": "Login_steps.flight_finder_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 753752467,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initialization()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verifying the user can login to the freeCRM website",
+        "description": "",
+        "id": "login-into-the-freecrm-website;verifying-the-user-can-login-to-the-freecrm-website;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 80953162,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3118262871,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the website in a browser",
+            "match": {
+              "location": "Login_steps.i_open_the_website_in_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4477255977,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with credentials \"univas01\" and \"Computer1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "univas01",
+                  "offset": 26
+                },
+                {
+                  "val": "Computer1!",
+                  "offset": 41
+                }
+              ],
+              "location": "Login_steps.i_login_with_credentials_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8054675,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Flight finder page is displayed",
+            "match": {
+              "location": "Login_steps.flight_finder_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 786283961,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initialization()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verifying the user can login to the freeCRM website",
+        "description": "",
+        "id": "login-into-the-freecrm-website;verifying-the-user-can-login-to-the-freecrm-website;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 85915435,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3308517452,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the website in a browser",
+            "match": {
+              "location": "Login_steps.i_open_the_website_in_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9218541440,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with credentials \"univas01\" and \"Computer1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "univas01",
+                  "offset": 26
+                },
+                {
+                  "val": "Computer1!",
+                  "offset": 41
+                }
+              ],
+              "location": "Login_steps.i_login_with_credentials_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6105693,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Flight finder page is displayed",
+            "match": {
+              "location": "Login_steps.flight_finder_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into the FreeCRM website",
+    "description": "",
+    "id": "login-into-the-freecrm-website",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
