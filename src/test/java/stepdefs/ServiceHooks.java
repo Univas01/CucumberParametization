@@ -15,7 +15,7 @@ public class ServiceHooks {
     @Before
     public static void initialization() {
 
-        String browserName = "chrome";
+        String browserName = "firefox";
 
         if (browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/browsers/chromedriver");
