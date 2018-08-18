@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1569329755,
+  "duration": 1617655009,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2131231344,
+  "duration": 2380511289,
   "status": "passed"
 });
 formatter.match({
@@ -122,22 +122,22 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 6608163408,
+  "duration": 5685231149,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 15091000,
+  "duration": 8598736,
   "status": "passed"
 });
 formatter.after({
-  "duration": 87220006,
+  "duration": 77208105,
   "status": "passed"
 });
 formatter.before({
-  "duration": 962750909,
+  "duration": 965438390,
   "status": "passed"
 });
 formatter.scenario({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2155273291,
+  "duration": 2102042109,
   "status": "passed"
 });
 formatter.match({
@@ -188,22 +188,22 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 6135914750,
+  "duration": 5859882141,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 8570473,
+  "duration": 7982786,
   "status": "passed"
 });
 formatter.after({
-  "duration": 85845281,
+  "duration": 84738987,
   "status": "passed"
 });
 formatter.before({
-  "duration": 966477312,
+  "duration": 1011612272,
   "status": "passed"
 });
 formatter.scenario({
@@ -237,7 +237,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 1962870596,
+  "duration": 2057950017,
   "status": "passed"
 });
 formatter.match({
@@ -254,18 +254,18 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 6306734666,
+  "duration": 5335200780,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 6985330,
+  "duration": 8557609,
   "status": "passed"
 });
 formatter.after({
-  "duration": 89337261,
+  "duration": 80704494,
   "status": "passed"
 });
 });
