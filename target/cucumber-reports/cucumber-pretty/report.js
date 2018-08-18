@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1525585349,
+  "duration": 1569329755,
   "status": "passed"
 });
 formatter.scenario({
@@ -102,10 +102,10 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Login_steps.i_open_the_website_in_a_browser()"
+  "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2803352795,
+  "duration": 2131231344,
   "status": "passed"
 });
 formatter.match({
@@ -119,25 +119,25 @@ formatter.match({
       "offset": 41
     }
   ],
-  "location": "Login_steps.i_login_with_credentials_and(String,String)"
+  "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 5783283711,
+  "duration": 6608163408,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login_steps.flight_finder_page_is_displayed()"
+  "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 7208544,
+  "duration": 15091000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 83991833,
+  "duration": 87220006,
   "status": "passed"
 });
 formatter.before({
-  "duration": 715539874,
+  "duration": 962750909,
   "status": "passed"
 });
 formatter.scenario({
@@ -168,10 +168,10 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Login_steps.i_open_the_website_in_a_browser()"
+  "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2426848888,
+  "duration": 2155273291,
   "status": "passed"
 });
 formatter.match({
@@ -185,25 +185,25 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "Login_steps.i_login_with_credentials_and(String,String)"
+  "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 5662370390,
+  "duration": 6135914750,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login_steps.flight_finder_page_is_displayed()"
+  "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 54957493,
+  "duration": 8570473,
   "status": "passed"
 });
 formatter.after({
-  "duration": 81851756,
+  "duration": 85845281,
   "status": "passed"
 });
 formatter.before({
-  "duration": 704725206,
+  "duration": 966477312,
   "status": "passed"
 });
 formatter.scenario({
@@ -234,10 +234,10 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Login_steps.i_open_the_website_in_a_browser()"
+  "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2459391012,
+  "duration": 1962870596,
   "status": "passed"
 });
 formatter.match({
@@ -251,21 +251,21 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "Login_steps.i_login_with_credentials_and(String,String)"
+  "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 6608553528,
+  "duration": 6306734666,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login_steps.flight_finder_page_is_displayed()"
+  "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 6677202,
+  "duration": 6985330,
   "status": "passed"
 });
 formatter.after({
-  "duration": 134191581,
+  "duration": 89337261,
   "status": "passed"
 });
 });

@@ -12,17 +12,31 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class ServiceHooks {
 
-    // Static webdriver object
     public static WebDriver driver;
+    public static Properties prop;
 
     @Before
     public static void initialization() {
 
-        String browserName = "chrome";
+        try {
+            prop = new Properties();
+            FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/config.properties");
+            prop.load(ip);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        String browserName = prop.getProperty("browser");
 
         if (browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/browsers/chromedriver");
@@ -33,6 +47,11 @@ public class ServiceHooks {
         } else if (browserName.equalsIgnoreCase("safari")) {
             driver = new SafariDriver();
         }
+
+        driver.manage().deleteAllCookies();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     @After

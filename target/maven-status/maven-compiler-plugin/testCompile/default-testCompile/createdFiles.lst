@@ -1,3 +1,6 @@
+sourcecode/HomePage.class
 stepdefs/ServiceHooks.class
-stepdefs/Login_steps.class
+sourcecode/LoginPage.class
+stepdefs/HomePageSteps.class
+stepdefs/LoginPageSteps.class
 TestRunner.class
