@@ -24,7 +24,7 @@ public class TestRunner {
     private TestNGCucumberRunner testNGCucumberRunner;
 
     @BeforeClass (alwaysRun = true)
-    public void setUp() throws Exception {
+    public void setUp() {
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
 
@@ -39,7 +39,7 @@ public class TestRunner {
     }
 
     @AfterClass (alwaysRun = true)
-    public void tearDown() throws Exception {
+    public void tearDown() {
         testNGCucumberRunner.finish();
     }
 }

@@ -2,5 +2,8 @@ sourcecode/HomePage.class
 stepdefs/ServiceHooks.class
 sourcecode/LoginPage.class
 stepdefs/HomePageSteps.class
+utility/TestUtil.class
+sourcecode/ContactPage.class
 stepdefs/LoginPageSteps.class
 TestRunner.class
+stepdefs/ContactPageSteps.class

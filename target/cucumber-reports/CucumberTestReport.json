@@ -6,7 +6,169 @@
         "before": [
           {
             "result": {
-              "duration": 1617655009,
+              "duration": 2459027575,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initialization()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Return exact match for contact",
+        "description": "",
+        "id": "searching-for-a-contact;return-exact-match-for-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 90438838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8200845310,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have successfully logged in",
+            "match": {
+              "location": "ContactPageSteps.i_have_successfully_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1609827341,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for a contact named \"Ola Ajala\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ola Ajala",
+                  "offset": 30
+                }
+              ],
+              "location": "ContactPageSteps.i_search_for_a_contact_named(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105125593,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Contact details should be returned",
+            "match": {
+              "location": "ContactPageSteps.contact_details_should_be_returned()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching for a contact",
+    "description": "",
+    "id": "searching-for-a-contact",
+    "keyword": "Feature",
+    "uri": "ContactPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1073958698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initialization()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Redirect users to correct page",
+        "description": "",
+        "id": "navigating-within-home-page;redirect-users-to-correct-page",
+        "after": [
+          {
+            "result": {
+              "duration": 140430725,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5865329897,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have successfully logged in to CRM Application",
+            "match": {
+              "location": "HomePageSteps.i_have_successfully_logged_in_to_CRM_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 943439280,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on contacts link",
+            "match": {
+              "location": "HomePageSteps.i_click_on_contacts_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114698389,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "List of contacts should be displayed",
+            "match": {
+              "location": "HomePageSteps.list_of_contacts_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigating within Home Page",
+    "description": "",
+    "id": "navigating-within-home-page",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1333074403,
               "status": "passed"
             },
             "match": {
@@ -21,7 +183,7 @@
         "after": [
           {
             "result": {
-              "duration": 77208105,
+              "duration": 81374286,
               "status": "passed"
             },
             "match": {
@@ -34,7 +196,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2380511289,
+              "duration": 2193930951,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 5685231149,
+              "duration": 3081000536,
               "status": "passed"
             },
             "line": 6,
@@ -72,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 8598736,
+              "duration": 8512860,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +250,7 @@
         "before": [
           {
             "result": {
-              "duration": 965438390,
+              "duration": 1041503444,
               "status": "passed"
             },
             "match": {
@@ -103,7 +265,7 @@
         "after": [
           {
             "result": {
-              "duration": 84738987,
+              "duration": 80244313,
               "status": "passed"
             },
             "match": {
@@ -116,7 +278,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2102042109,
+              "duration": 2255198103,
               "status": "passed"
             },
             "line": 5,
@@ -128,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 5859882141,
+              "duration": 5641910793,
               "status": "passed"
             },
             "line": 6,
@@ -154,7 +316,7 @@
           },
           {
             "result": {
-              "duration": 7982786,
+              "duration": 8310527,
               "status": "passed"
             },
             "line": 7,
@@ -170,7 +332,7 @@
         "before": [
           {
             "result": {
-              "duration": 1011612272,
+              "duration": 1026705735,
               "status": "passed"
             },
             "match": {
@@ -185,7 +347,7 @@
         "after": [
           {
             "result": {
-              "duration": 80704494,
+              "duration": 87941732,
               "status": "passed"
             },
             "match": {
@@ -198,7 +360,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2057950017,
+              "duration": 2127523268,
               "status": "passed"
             },
             "line": 5,
@@ -210,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 5335200780,
+              "duration": 5430489609,
               "status": "passed"
             },
             "line": 6,
@@ -236,7 +398,7 @@
           },
           {
             "result": {
-              "duration": 8557609,
+              "duration": 8043078,
               "status": "passed"
             },
             "line": 7,
@@ -253,6 +415,6 @@
     "description": "",
     "id": "login-into-the-freecrm-website",
     "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "LoginPage.feature"
   }
 ]

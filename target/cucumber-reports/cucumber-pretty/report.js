@@ -1,4 +1,130 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ContactPage.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Searching for a contact",
+  "description": "",
+  "id": "searching-for-a-contact",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 2459027575,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Return exact match for contact",
+  "description": "",
+  "id": "searching-for-a-contact;return-exact-match-for-contact",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "I have successfully logged in",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "I search for a contact named \"Ola Ajala\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "Contact details should be returned",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ContactPageSteps.i_have_successfully_logged_in()"
+});
+formatter.result({
+  "duration": 8200845310,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ola Ajala",
+      "offset": 30
+    }
+  ],
+  "location": "ContactPageSteps.i_search_for_a_contact_named(String)"
+});
+formatter.result({
+  "duration": 1609827341,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ContactPageSteps.contact_details_should_be_returned()"
+});
+formatter.result({
+  "duration": 105125593,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 90438838,
+  "status": "passed"
+});
+formatter.uri("HomePage.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Navigating within Home Page",
+  "description": "",
+  "id": "navigating-within-home-page",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 1073958698,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Redirect users to correct page",
+  "description": "",
+  "id": "navigating-within-home-page;redirect-users-to-correct-page",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "I have successfully logged in to CRM Application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "I click on contacts link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "List of contacts should be displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HomePageSteps.i_have_successfully_logged_in_to_CRM_Application()"
+});
+formatter.result({
+  "duration": 5865329897,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.i_click_on_contacts_link()"
+});
+formatter.result({
+  "duration": 943439280,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.list_of_contacts_should_be_displayed()"
+});
+formatter.result({
+  "duration": 114698389,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 140430725,
+  "status": "passed"
+});
+formatter.uri("LoginPage.feature");
 formatter.feature({
   "line": 1,
   "name": "Login into the FreeCRM website",
@@ -71,7 +197,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1617655009,
+  "duration": 1333074403,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +231,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2380511289,
+  "duration": 2193930951,
   "status": "passed"
 });
 formatter.match({
@@ -122,22 +248,22 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 5685231149,
+  "duration": 3081000536,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 8598736,
+  "duration": 8512860,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77208105,
+  "duration": 81374286,
   "status": "passed"
 });
 formatter.before({
-  "duration": 965438390,
+  "duration": 1041503444,
   "status": "passed"
 });
 formatter.scenario({
@@ -171,7 +297,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2102042109,
+  "duration": 2255198103,
   "status": "passed"
 });
 formatter.match({
@@ -188,22 +314,22 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 5859882141,
+  "duration": 5641910793,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 7982786,
+  "duration": 8310527,
   "status": "passed"
 });
 formatter.after({
-  "duration": 84738987,
+  "duration": 80244313,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1011612272,
+  "duration": 1026705735,
   "status": "passed"
 });
 formatter.scenario({
@@ -237,7 +363,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2057950017,
+  "duration": 2127523268,
   "status": "passed"
 });
 formatter.match({
@@ -254,18 +380,18 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 5335200780,
+  "duration": 5430489609,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 8557609,
+  "duration": 8043078,
   "status": "passed"
 });
 formatter.after({
-  "duration": 80704494,
+  "duration": 87941732,
   "status": "passed"
 });
 });

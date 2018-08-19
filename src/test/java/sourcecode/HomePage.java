@@ -10,8 +10,8 @@ public class HomePage {
 
     public WebDriver driver;
 
-    @FindBy(xpath = "a")
-    WebElement logoutBtn;
+    @FindBy(xpath = "//a[@title='Contacts']")
+    WebElement contactLink;
 
     public HomePage(){
         driver = ServiceHooks.driver;
@@ -20,5 +20,10 @@ public class HomePage {
 
     public String verifyHomePageTitle(){
         return driver.getTitle();
+    }
+
+    public ContactPage clickOnContactLink(){
+        contactLink.click();
+        return new ContactPage();
     }
 }

@@ -1,6 +1,9 @@
 /Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/sourcecode/LoginPage.java
 /Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/stepdefs/ServiceHooks.java
 /Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/stepdefs/HomePageSteps.java
+/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/utility/TestUtil.java
+/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/sourcecode/ContactPage.java
+/Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/stepdefs/ContactPageSteps.java
 /Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/sourcecode/HomePage.java
 /Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/TestRunner.java
 /Users/Olasunkanmi/Documents/workspace/CompleteSeleniumBootcamp/CucumberParametization/src/test/java/stepdefs/LoginPageSteps.java
