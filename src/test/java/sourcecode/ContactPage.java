@@ -33,9 +33,11 @@ public class ContactPage {
         return contactHeader.isDisplayed();
     }
 
-    public void selectContactCheckBox(String name){
-        driver.findElement(By.xpath
-                ("//a[contains(text(),'"+name+"')]//parent::*//preceding-sibling::*//input[@type='checkbox']")).click();
+    public boolean selectContactCheckBox(String name){
+        WebElement clickOnCheckBox = driver.findElement(By.xpath
+                ("//a[contains(text(),'"+name+"')]//parent::*//preceding-sibling::*//input[@type='checkbox']"));
+        clickOnCheckBox.click();
+        return true;
     }
 
     public void searchForContact(String contactName){

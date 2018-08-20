@@ -4,4 +4,4 @@ Feature: Searching for a contact
 
     Given I have successfully logged in
     When I search for a contact named "Ola Ajala"
-    Then Contact details should be returned
+    Then Checkbox for "Ola Ajala" should be clickable

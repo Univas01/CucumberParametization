@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2459027575,
+              "duration": 3135329625,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 90438838,
+              "duration": 102358119,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8200845310,
+              "duration": 9820496418,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1609827341,
+              "duration": 2182371203,
               "status": "passed"
             },
             "line": 6,
@@ -64,13 +64,19 @@
           },
           {
             "result": {
-              "duration": 105125593,
+              "duration": 208815178,
               "status": "passed"
             },
             "line": 7,
-            "name": "Contact details should be returned",
+            "name": "Checkbox for \"Ola Ajala\" should be clickable",
             "match": {
-              "location": "ContactPageSteps.contact_details_should_be_returned()"
+              "arguments": [
+                {
+                  "val": "Ola Ajala",
+                  "offset": 14
+                }
+              ],
+              "location": "ContactPageSteps.checkbox_for_should_be_clickable(String)"
             },
             "keyword": "Then "
           }
@@ -90,7 +96,7 @@
         "before": [
           {
             "result": {
-              "duration": 1073958698,
+              "duration": 1508672146,
               "status": "passed"
             },
             "match": {
@@ -105,7 +111,7 @@
         "after": [
           {
             "result": {
-              "duration": 140430725,
+              "duration": 135561342,
               "status": "passed"
             },
             "match": {
@@ -118,7 +124,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5865329897,
+              "duration": 6890150765,
               "status": "passed"
             },
             "line": 5,
@@ -130,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 943439280,
+              "duration": 1185183110,
               "status": "passed"
             },
             "line": 6,
@@ -142,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 114698389,
+              "duration": 178008006,
               "status": "passed"
             },
             "line": 7,
@@ -168,7 +174,7 @@
         "before": [
           {
             "result": {
-              "duration": 1333074403,
+              "duration": 1534938845,
               "status": "passed"
             },
             "match": {
@@ -183,7 +189,7 @@
         "after": [
           {
             "result": {
-              "duration": 81374286,
+              "duration": 136910807,
               "status": "passed"
             },
             "match": {
@@ -196,7 +202,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2193930951,
+              "duration": 2339673782,
               "status": "passed"
             },
             "line": 5,
@@ -208,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 3081000536,
+              "duration": 6490540813,
               "status": "passed"
             },
             "line": 6,
@@ -234,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 8512860,
+              "duration": 10661905,
               "status": "passed"
             },
             "line": 7,
@@ -250,7 +256,7 @@
         "before": [
           {
             "result": {
-              "duration": 1041503444,
+              "duration": 1422628793,
               "status": "passed"
             },
             "match": {
@@ -265,7 +271,7 @@
         "after": [
           {
             "result": {
-              "duration": 80244313,
+              "duration": 133592749,
               "status": "passed"
             },
             "match": {
@@ -278,7 +284,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2255198103,
+              "duration": 2714729676,
               "status": "passed"
             },
             "line": 5,
@@ -290,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 5641910793,
+              "duration": 6977498213,
               "status": "passed"
             },
             "line": 6,
@@ -316,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 8310527,
+              "duration": 193915458,
               "status": "passed"
             },
             "line": 7,
@@ -332,7 +338,7 @@
         "before": [
           {
             "result": {
-              "duration": 1026705735,
+              "duration": 1455799250,
               "status": "passed"
             },
             "match": {
@@ -347,7 +353,7 @@
         "after": [
           {
             "result": {
-              "duration": 87941732,
+              "duration": 94169789,
               "status": "passed"
             },
             "match": {
@@ -360,7 +366,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2127523268,
+              "duration": 2496974210,
               "status": "passed"
             },
             "line": 5,
@@ -372,7 +378,7 @@
           },
           {
             "result": {
-              "duration": 5430489609,
+              "duration": 7679539449,
               "status": "passed"
             },
             "line": 6,
@@ -398,7 +404,7 @@
           },
           {
             "result": {
-              "duration": 8043078,
+              "duration": 13617847,
               "status": "passed"
             },
             "line": 7,

@@ -4,12 +4,15 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import sourcecode.ContactPage;
 import sourcecode.HomePage;
 import sourcecode.LoginPage;
 import utility.TestUtil;
 
 import java.util.Properties;
+
+import static org.testng.Assert.fail;
 
 public class ContactPageSteps {
 
@@ -42,9 +45,11 @@ public class ContactPageSteps {
         contactPage.searchForContact(arg1);
     }
 
-    @Then("^Contact details should be returned$")
-    public void contact_details_should_be_returned() {
-        contactPage.selectContactCheckBox(prop.getProperty("contact_nameFTF"));
+    @Then("^Checkbox for \"([^\"]*)\" should be clickable$")
+    public void checkbox_for_should_be_clickable(String arg1) {
+        Assert.assertTrue(contactPage.selectContactCheckBox(arg1));
+        if(!contactPage.selectContactCheckBox(arg1)){
+            fail();
+        }
     }
-
 }

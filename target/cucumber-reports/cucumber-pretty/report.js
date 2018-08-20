@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2459027575,
+  "duration": 3135329625,
   "status": "passed"
 });
 formatter.scenario({
@@ -30,14 +30,14 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "Contact details should be returned",
+  "name": "Checkbox for \"Ola Ajala\" should be clickable",
   "keyword": "Then "
 });
 formatter.match({
   "location": "ContactPageSteps.i_have_successfully_logged_in()"
 });
 formatter.result({
-  "duration": 8200845310,
+  "duration": 9820496418,
   "status": "passed"
 });
 formatter.match({
@@ -50,18 +50,24 @@ formatter.match({
   "location": "ContactPageSteps.i_search_for_a_contact_named(String)"
 });
 formatter.result({
-  "duration": 1609827341,
+  "duration": 2182371203,
   "status": "passed"
 });
 formatter.match({
-  "location": "ContactPageSteps.contact_details_should_be_returned()"
+  "arguments": [
+    {
+      "val": "Ola Ajala",
+      "offset": 14
+    }
+  ],
+  "location": "ContactPageSteps.checkbox_for_should_be_clickable(String)"
 });
 formatter.result({
-  "duration": 105125593,
+  "duration": 208815178,
   "status": "passed"
 });
 formatter.after({
-  "duration": 90438838,
+  "duration": 102358119,
   "status": "passed"
 });
 formatter.uri("HomePage.feature");
@@ -73,7 +79,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1073958698,
+  "duration": 1508672146,
   "status": "passed"
 });
 formatter.scenario({
@@ -103,25 +109,25 @@ formatter.match({
   "location": "HomePageSteps.i_have_successfully_logged_in_to_CRM_Application()"
 });
 formatter.result({
-  "duration": 5865329897,
+  "duration": 6890150765,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.i_click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 943439280,
+  "duration": 1185183110,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.list_of_contacts_should_be_displayed()"
 });
 formatter.result({
-  "duration": 114698389,
+  "duration": 178008006,
   "status": "passed"
 });
 formatter.after({
-  "duration": 140430725,
+  "duration": 135561342,
   "status": "passed"
 });
 formatter.uri("LoginPage.feature");
@@ -197,7 +203,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1333074403,
+  "duration": 1534938845,
   "status": "passed"
 });
 formatter.scenario({
@@ -231,7 +237,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2193930951,
+  "duration": 2339673782,
   "status": "passed"
 });
 formatter.match({
@@ -248,22 +254,22 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 3081000536,
+  "duration": 6490540813,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 8512860,
+  "duration": 10661905,
   "status": "passed"
 });
 formatter.after({
-  "duration": 81374286,
+  "duration": 136910807,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1041503444,
+  "duration": 1422628793,
   "status": "passed"
 });
 formatter.scenario({
@@ -297,7 +303,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2255198103,
+  "duration": 2714729676,
   "status": "passed"
 });
 formatter.match({
@@ -314,22 +320,22 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 5641910793,
+  "duration": 6977498213,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 8310527,
+  "duration": 193915458,
   "status": "passed"
 });
 formatter.after({
-  "duration": 80244313,
+  "duration": 133592749,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1026705735,
+  "duration": 1455799250,
   "status": "passed"
 });
 formatter.scenario({
@@ -363,7 +369,7 @@ formatter.match({
   "location": "LoginPageSteps.i_open_the_website_in_a_browser()"
 });
 formatter.result({
-  "duration": 2127523268,
+  "duration": 2496974210,
   "status": "passed"
 });
 formatter.match({
@@ -380,18 +386,18 @@ formatter.match({
   "location": "LoginPageSteps.i_login_with_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 5430489609,
+  "duration": 7679539449,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.flight_finder_page_is_displayed()"
 });
 formatter.result({
-  "duration": 8043078,
+  "duration": 13617847,
   "status": "passed"
 });
 formatter.after({
-  "duration": 87941732,
+  "duration": 94169789,
   "status": "passed"
 });
 });
